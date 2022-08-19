@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <script src="./editdom.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <button id="clearGrid">Clear Grid</button>
+    <div class="sliderContainer">
+        <input type="range" min="16" max="100" value="20" id="gridSlider">
+    </div>
+    <div class="colorContainer">
+        Color : <input type="color" value="#F51E06" id="colorSelect">
+    </div>
+    <div class="grid-container"></div>
+
+      
+</body>
+</html>
+<!--
+    To Do list - 
+    1. Build a grid 16x16(Done)
+    2. Change background to black when hover.(Done)
+    3. Build clear button to clean the grid.(Done)
+    4. Build a slider.(Done)
+    5. Use slider value to use for grid dimensions.
+    6. Build a clickable event allowing to toggle between drawing and not drawing in the grid.
+    7. Build color option.(Done)
+    8. Make color option drawable.
+    9. Rainbow option to draw.
+-->
